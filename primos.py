@@ -1,5 +1,5 @@
 def main():
-    a = float(input("Number a: "))
+    a = abs(float(input("Number a: ")))
     # Zero is  not a prime number
     if a == 0:
         print("Is not  prime")
