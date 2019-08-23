@@ -6,12 +6,10 @@ def main():
         return
     # Jump the non required numbers
     half = a // 2
-    current = 2
-    while current <= half:
-        if a % current == 0:
+    for number in range(2, int(half)+1):
+        if a % number == 0:
             print("Is not prime")
             return
-        current += 1
     print("Is prime")
 
 
